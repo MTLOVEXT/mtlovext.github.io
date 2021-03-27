@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title style="color: red; font-size: 50px;" >BÁN MÈO </title>
+    <meta http-equiv="Content-Type" content="text/html;" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="login.css" rel="stylesheet" type="text/css"/>
+    <style>
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+    header{
+        background-color: #cccccc;
+        min-height: 50px;
+        padding: 15px;
+    }
+    main{
+        background-color: #dddddd;
+        min-height: 20px;
+        padding: 7.5px 15px;
+    }
+    footer{
+        background-color: #cccccc;
+        min-height: 50px;
+        padding: 15px;
+    }
+    .container{
+        width: 100%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .login-form{
+        width: 100%;
+        max-width: 400px;
+        margin: 20px auto;
+        background-color: #ffffff;
+        padding: 15px;
+        border: 2px dotted #cccccc;
+        border-radius: 10px;
+    }
+    h1{
+        color: #009999;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .input-box{
+        margin-bottom: 10px;
+    }
+    .input-box input{
+        padding: 7.5px 15px;
+        width: 100%;
+        border: 1px solid #cccccc;
+        outline: none;
+    }
+    .btn-box{
+        text-align: right;
+        margin-top: 30px;
+    }
+    .btn-box button{
+        padding: 7.5px 15px;
+        border-radius: 2px;
+        background-color: #009999;
+        color: #ffffff;
+        border: none;
+        outline: none;
+    }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container" align="right" style="color: red; font-size: 30px;">
+            ĐẦU TRANG
+        </div>
+    </header>
+    <form method="POST" action="xuly.php"></form>
+    <main>
+        <div class="container">
+        <div class="login-form">
+            <form action="" method="post">
+                <h1 style="color: red;"> Đăng nhập vào website</h1>
+                <div class="input-box">
+                    <i ></i>
+                    <input type="text" placeholder="Nhập username" name="nhapten">
+                </div>
+                <div class="input-box">
+                    <i ></i>
+                    <input type="password" placeholder="Nhập mật khẩu" name="nhapmk">
+                </div>
+                <div class="btn-box">
+                    <button type="submit">
+                        Đăng nhập
+                    </button>
+                </div>
+            </form>
+        </div>
+        </div>
+    </main><!--<form name="tìm kiếm"action="tk.php" method="post"> <input type="text"><input type="submit" value = "Tìm kiếm"/><br/></form>-->
+    <!-- Lời ghi dưới mỗi bài viết 
+    <b:if cond='data:blog.pageType == "item"' style="color: purple; font-size: 100px;">
+    HELLO CÁC BẠN
+    </b:if>-->
+    <marquee align="center" direction="left" height="100" scrollamount="2" width="100%" style="color:purple; font-size: 100px;">CHÀO CÁC BẠN</marquee>
+    <form align="right" name="tìm kiếm"action="tk.php" method="post"> <input type="text"><input type="submit" value = "Tìm kiếm"/><br/></form> 
+    <br/>
+    <!--<div class="col-xl-3">
+        <div class="card  ">
+             <div class="card-header text-center">
+                <span class="fa fa-bars"></span> CHỦNG LOẠI SẢN PHẨM
+            </div> 
+            <div class="row">
+                <div class="col-5">
+                    <img class="text-center" src="./image/shoppingcart.gif" alt="" style="width: 80%;">
+                </div>
+                <div class="col-7">
+                    <div class="card-body">
+                        <h4 class="card-title">100</h4>
+                        <h3 class="card-title">ITEMS</h3>
+                        <p class="card-text">56.8$</p>
+                      
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary">Thanh Toán</button>
+            </div>
+            <!-- <div class="card-footer text-muted text-center">
+               <button type="button" class="btn btn-primary">Thanh Toán</button>
+            </div> 
+        </div>
+        <div class="card" style="margin-top: 20px;">
+            <div class="card-header text-center">
+                <span class="fa fa-bars"></span> CHỦNG LOẠI SẢN PHẨM
+            </div>
+            <!-- <div class="card-body">
+                <h4 class="card-title">Title</h4>
+                <p class="card-text">Text</p>
+            </div>
+            <div class="card-footer text-muted">
+                Footer
+            </div> 
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-primary">Điện thoại</li>
+                <li class="list-group-item list-group-item-danger">Máy giặc</li>
+                <li class="list-group-item list-group-item-success">Tủ lạnh</li>
+            </ul>
+        </div>-->
+   
+    <center>
+        <img src="https://lh3.googleusercontent.com/t0C9e-Sof_BNQ3fV2fdpyRbyDyQygrqqiF2G9wL5jaRK3QYk55r9Cymf42lh70jDAmM0-pIOrvZ1UCS6v6CKKLccuw3hcJkM-SDQPjdSVUROyNP7UcpaXR1ZLuiMlkcU3kUqTCRjorsYNv0onti_pYHSpi89RxDs-NJWl8OIr1zF4iZv8cb8uo2R5CNUZ9g295E8ImDPlf5mMeoIEtZedybvfmoKOJWDoxNNSdCPyUjr7nQSeEs-9xOWEuwso3trlBIIPrjCqWID6OU41Kp_FMBebIIFi2ljbzaJxlXSFDBPRWz5y2-nl3A8cxTjW1NVQ2QZwBijTynMxWpRc4PWVvKBJskEuG1yaujHh4g3ygW1nLAGamepLCvA3kENsaEbZEFO-63GDSo0aKtDHhtoMvr0Cxc3U1a-08HDmQyNEHCIo3_w46VIAWJbkkLY_xRXv1ENUkJd-jR6-JhTDt8Lb5j2bK_1Lay6ce09k7ZjHdpJlwKCNS3aoShu-_p9xn5bViCaLwyS62e45ZW0npNdrW38QoMvLr4R18YISn8l6L8izzZfMmug2AfS_S1qKViXE_i5lvFRhAQRKA2skyvUU2WZvMwdpCscFCuDDd8-HHdIp3lNBw3DKl3q_b-gaFmA1x8czT6h1ONEBka8c7_yEs5Y1JQOWkb-Pfb6L15toC1YM3RvY2mY8DMstMD-hx9YFn0aejrgbG1T5t31=w507-h900-no?authuser=0" alt="mèo bán">
+    <ul style="color: red; font-size: 30px;">
+        giá:200k
+    </ul>
+    <form name="buôn bán"action="bb.php" method="post">
+     <input type="submit" value = "mua" /><br/>
+    </form>
+    </center>
+    <center>
+        <img src="https://lh3.googleusercontent.com/w6aj4vH1fFIAghi0dX2PjN2fZAe-LQ58OS2ng1j_xQQh6qhjnMlcRTj1Qf7UL2tR9j1VDvZpKyG_f_FM7rmOlo72tP8HDg2q1X7sP9zMMZ0waHPHqYuaulTE1oQpQo17bkk02EO1meGTbUlkRMleU5m_ISS8hCqnTa-VKmkO92D128aHQ-eGor4cn6skaVbjvuXQ5EqBpz0jPnfQ94DYLBbRkuhGhGYkRzVSmTGbIjJJlQ8ViQbA54kgW3V4kl3OHNykVfwmppUBD5q-THK-air5Pl6yWlkxXCEOxipi_1g9y9qmamI3TfnIs7vuO-H5iZvMJJnjeyJ0FZFYfR51_eV-wKstQetQvKofcEZ9Y4XVBM-JeySblEMZXE4OxOqNg8JwiuvJ0AuGBqZl3cmMOhWrh_QV0y8DH7M0M0y99p4Mw73AvOr28UFPwoGq4mjHmHwlgr_6nojz6epNe3lKC0ZiM_8b8XWdsXzVeHtDe5Bp87fgxg02F6rSNmb76nWcM1NuOwvo6kyL7Dt7eVsRmZIZXAl8t0o_SpO99WtXMeekgijz7ROqtAUlrtv_S3_smFCcUbtdA96F2ev5j7_ZrgvCaFN8o6L1JPWW0huvT-zBtSMMfugGSNhJ68dt5Q71ebrJfMbmFG3ahstvXh1It3f-HJOvewRTWtidiynInQuoD0wEcfphLVErijzDOqkpr-ryUgcMz10mbWAq=w233-h175-no?authuser=0" alt="mèo bán">
+    <ul style="color: red;font-size: 30px;">
+        giá 250k
+    </ul>
+    <form name="buôn bán"action="bb.php" method="post">
+        <input type="submit" value = "mua"/><br/>
+    </form>
+    </center>
+   
+    <center><img src="https://lh3.googleusercontent.com/nOGAp82Iy4JLPoqlimdjNwPfG1tBRFhQNwoKj0ItSMRLl3yOE_GDSgGQpozeFPIQm63FDnBbiKBUoWxQ9YpF-cHjxOaknyAz3GMi5rz20XPovth2XxBrKDmKH4_r1uZ6fIS15aKSmx-YTwx-5Z5Jxd1rLCMMGIjuaFzPeNLqbJQfOOIIjMunC2Ddst_sUuXwW9DUisUeOck93aiVzIj8-18uzuri0xNdLWr-R1ogD0xdiIM1G64ce1g359Pyk5Hm5YhDWmSXh0G_1IG3Yd1VWlJwh_v5rErIdiFzhQDSKqP9pTmAvT1GXjBJ3LuoYfeEJit32PfL3cpEvgYgRqTfvFiNeMR_Uj49y6hxYU29AHRBceWPP__4qWZN3Y5CU5-EYNew644S4cFRDcEFT1Lpa5WfHoejRiWkfoRnTQRWURgK-mT2d5A-O11HDNL4o4GE-TGk1zA2AhJIYAE5xasrfnWI2TIShI4WVBQpK99AKzeXR9MY5XRqDOEzDZwfzkLAm2W2RzLkalVNF2IhuCaIr_cED634377AUoD2A7DaRlO9xu9PPcR4yIJ2_85ZGIgA2lyV9p8LGdns-qGCaTaRsYrzy1vgz3JHrSW-OxHjP_xZWl8gGdokDEJlVABKK5fvLnoCK1K__q2VIF6wdr9XpqRb9Sr6gjcu3Z_ge7CpwqDZSziXknFWvqeD6rIKHgT3IiJjfAUFEI69gawo=w675-h900-no?authuser=0" alt="mèo bán">
+        <ul style="color: red; font-size: 30px;">
+            giá:100k
+        </ul>
+        <form name="buôn bán"action="bb.php" method="post">
+            <input style="" type="submit" value = "mua"/><br/>
+        </form>
+    </center>
+
+    <center>
+
+        <img src="https://lh3.googleusercontent.com/2rHz3Dvs6XWd0xFHZt2FP9HfYeE767PKIRzhmiXqLeheubezkQYhC9JXns-teVK4XdkqMOgQ37GiaPzcII3RlaZGi7VFZg1BvWhvHSyYJ78a7dyLS3dlSdi7wkdmXq38_F02zQOGApSfsUJgSfoUOrmnJ8IpLBjGC0fxtZnA6Otl-sU-C1NL_5MhCffZMitdGWq1T8yIsoREcW5wDJK0L0zkd2XSeIvuOUPDgRVqJW0bMBWqIlBOYUuqfVds5lL7NaaCVYhTZCzII3rsEwOWqYsfFwoVxRNUbv79TPbEgQRXsINRG-fRAaBybqkBCblM2ohB6wK8lJubweCLEa9s-WEe9eQdl2koQXPAVXfwoiZbqz2nh5ubQEaoyL8X_PogQSvho_Fzl5-Dt9cppPnUnlk7-7xlWzkGc2eRPthGDfjNlSUM6RIBp_KdZBFoE7wknZGKcQOlAhPdy2yjkFs5AOGemQ34oqm8zPYaoZTJPI9fGbZIsSSrb-Kay1GWds3VJc1CwUMk93rdLQxFbK2ErCoay7GH068Qjgb9FDqRckdnjnhKRscMGFq_iDKkANca5TPxl8SrE2JP9h2hw9Moz5-xq0DxmilYH7RUClzArQXJ8G0bee-isjUIQdWEf312q6-26mlUDvr300uoZN9-zvGrKm1zvPl6RFZYzLenTq6Ze8XvoNGgZQ8CY_dW2SqnLrTxeIZaYVm9NYyp=w675-h900-no?authuser=0" alt="mèo bán">
+        <ul style="color: red; font-size: 30px;">
+            giá:500k
+        </ul>
+        <form name="buôn bán"action="bb.php" method="post">
+            <input type="submit" value = "mua"/><br/>
+        </form>
+ 
+    </center>
+    
+    <!--<object name='hat' width=300 height=45>
+        <embed type='application/x-mplayer2'
+        pluginspage='http://www.microsoft.com/Windows/Downloads/Contents/Products/MediaPlayer/'
+        controls='controlpanel' width=300 height=45 src='https://zingmp3.vn/bai-hat/Vo-Oi-Le-Bao-Binh/ZWE70DBZ.html'
+        autostart="1" showstatusbar="0" ShowControls='true' loop='0' name='hat'></embed></object>-->
+        <script type='text/javascript'> ! function (e, t, a) { function n() { c( ".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}" ), o(), r() } function r() { for (var e = 0; e < d.length; e++) d[e].alpha <= 0 ? (t.body.removeChild(d[e].el), d.splice(e, 1)) : (d[e].y--, d[e].scale += .004, d[e].alpha -= .013, d[e].el.style.cssText = "left:" + d[e].x + "px;top:" + d[e].y + "px;opacity:" + d[e].alpha + ";transform:scale(" + d[e].scale + "," + d[e].scale + ") rotate(45deg);background:" + d[e].color + ";z-index:99999"); requestAnimationFrame(r) } function o() { var t = "function" == typeof e.onclick && e.onclick; e.onclick = function (e) { t && t(), i(e) } } function i(e) { var a = t.createElement("div"); a.className = "heart", d.push({ el: a, x: e.clientX - 5, y: e.clientY - 5, scale: 1, alpha: 1, color: s() }), t.body.appendChild(a) } function c(e) { var a = t.createElement("style"); a.type = "text/css"; try { a.appendChild(t.createTextNode(e)) } catch (t) { a.styleSheet.cssText = e } t.getElementsByTagName("head")[0].appendChild(a) } function s() { return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")" } var d = []; e.requestAnimationFrame = function () { return e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function (e) { setTimeout(e, 1e3 / 60) } }(), n() }(window, document); </script>
+    <footer>
+        <div class="container" align="right" style="color: red; font-size: 30px;">
+        CUỐI TRANG
+        </div>
+    </footer>
+
+</div>
+</div>
+    <p style="color: orange; font-size: 35px;" align="left" >
+       <br/> 
+        Thông tin liên hệ: LÊ MỸ HƯỜNG
+        <a href="https://www.facebook.com/messages/t/100030192622899" style="color: orange; font-size: 35px;">SĐT:0708739599</a>
+        <a href="https://drive.google.com/file/d/1J2NIaXeUj-2JguxrMwk9WEqXF1zaIzfO/view?usp=sharing">hóa đơn</a> 
+        <br/><a align="left" href="https://www.facebook.com/huong.lemy.967" style="color: purple; font-size: 50px;">CHỦ MEO</a>  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d591.1609594472257!2d106.63996825624827!3d10.74791427245433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDQ0JzUyLjUiTiAxMDbCsDM4JzI1LjYiRQ!5e0!3m2!1svi!2s!4v1616580788023!5m2!1svi!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" align="right" ></iframe>
+    </p>
+<script src="main.js"></script>
+</body>
+</html>
